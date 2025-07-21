@@ -31,6 +31,12 @@ This repository contains Power BI files, presentations, reports, and datasets fo
 - **Task 6: Identify and Visualize Potential Outliers and Anomalies**  
   Identified `RateBeds` outliers (>585) via scatter plot and table, capped at 585, with no new `RateMDs` anomalies. (Included in `Phase2.pbix` with report and presentation.)
 
+  ![Image](https://github.com/user-attachments/assets/343459b9-f700-4970-a6d4-1273160bae89)
+
+![Image](https://github.com/user-attachments/assets/50294483-98c5-4991-af5d-72b49a584c6a)
+
+![Image](https://github.com/user-attachments/assets/cc597457-6cb2-419f-8dac-c340f578402e)
+
 ### Phase 3: Data Analysis and Feature Engineering
 - **Task 7: Conduct Univariate and Bivariate Analyses**  
   Performed univariate analysis with a histogram and card, and bivariate analysis with a scatter plot and matrix, linking low `RateMDs` to safety risks. (Included in `Task7.pbix` with report and presentation.)
@@ -38,6 +44,14 @@ This repository contains Power BI files, presentations, reports, and datasets fo
   Engineered `newHAI` (average of `RateMDs` and `RateBeds`, capped at 400), `newPDI` (population per physician, capped at 1000), and `newMedicareDependencyRatio` (capped at 15), visualized with bar, line, and scatter charts. (Included in `Phase3.pbix` with report and presentation.)
 - **Task 9: Apply Outlier Detection Methods**  
   Detected and capped outliers (`newHAI` >400, `newPDI` >1000, `newMedicareDependencyRatio` >15) using DAX calculated columns. (Included in `Phase3.pbix` with report and presentation.)
+
+  ![Image](https://github.com/user-attachments/assets/31f9e6a5-cf7d-48b5-8524-9128a2aaf374)
+
+![Image](https://github.com/user-attachments/assets/b03c79f4-d41e-4b33-8854-106e9dafd211)
+
+![Image](https://github.com/user-attachments/assets/0175c669-e188-4c4f-8a5f-386d5d09e4de)
+
+![Image](https://github.com/user-attachments/assets/b79ec28a-9ce2-4c72-8191-2b2c975ea572)
 
 ### Phase 4: Reporting and Documentation
 - **Task 13: Summarize Findings and Insights**  
