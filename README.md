@@ -67,6 +67,61 @@ This repository contains Power BI files, presentations, reports, and datasets fo
 - **Task 17: Assess the Impact of Data-Driven Recommendations**  
   Assessed that recommendations enhance resource allocation, emergency response, and proactive care for safety operations. (Included in `MetroHealth83_Cleaned.pbix` and `Healthcare_Safety_Presentation.pptx`.)
 
+### 1. MySQL Analysis (healthcare_analysis.sql)
+
+The SQL file includes:
+- KPI aggregations (Average physicians, Medicare growth, Bed capacity)
+- Window functions (RANK for bed capacity ranking)
+- Common Table Expressions (CTE for high Medicare growth cities)
+- CASE-based risk segmentation (SSI rate categorization)
+- Index creation for performance optimization
+- Business insight queries (under-resourced city detection)
+- View creation for dashboard reporting
+
+This makes the analysis reproducible directly inside MySQL Workbench.
+
+### 2. Python ETL Pipeline (metrohealth83.ipynb)
+
+I engineered a complete Python-based ETL workflow that:
+
+- Extracts raw CSV data
+- Cleans and standardizes column names
+- Handles missing values
+- Removes duplicates
+- Converts data types properly
+
+Engineers' new KPIs:
+- Physician to Hospital Ratio
+- Medicare Growth Flag
+- Risk Category Segmentation
+- Performs validation checks
+- Exports a cleaned dataset for reporting and SQL analysis
+
+### 3. Cleaned Dataset
+
+The file:
+cleaned_healthcare_data.csv
+contains the fully cleaned and standardised dataset generated from the ETL process.
+This dataset is ready for dashboarding, reporting, and SQL querying.
+
+### 4. Project Assets
+
+The repository now contains:
+- Original Dataset (MetroHealth83.csv)
+- Cleaned Dataset (cleaned_healthcare_data.csv)
+- Python ETL script/notebook
+- MySQL analysis script
+- Report and presentation PDF
+
+### Tools Used
+
+- Python (Pandas, NumPy)
+- MySQL (Joins, CTE, Window Functions, Indexing)
+- Power BI
+- Data Cleaning and Feature Engineering
+- KPI Development and Business Analysis
+
+
 ### Project Conclusion and Future Steps
 - **Task 18: Conclude the Project**  
   Concluded with findings: Low `RateMDs` and `RateBeds` correlate with risks, offering a scalable model for public health planning. (Included in `Healthcare_Safety_Presentation.pptx`.)
