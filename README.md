@@ -66,6 +66,7 @@ This repository contains Power BI files, presentations, reports, and datasets fo
   Applied visuals to target Hanford-Corcoran (low `RateMDs`) and Scranton (negative `PctChangeMedicare`) for healthcare interventions. (Included in `MetroHealth83_Cleaned.pbix` and `Healthcare_Safety_Presentation.pptx`.)
 - **Task 17: Assess the Impact of Data-Driven Recommendations**  
   Assessed that recommendations enhance resource allocation, emergency response, and proactive care for safety operations. (Included in `MetroHealth83_Cleaned.pbix` and `Healthcare_Safety_Presentation.pptx`.)
+### Added new features : 
 
 ### 1. MySQL Analysis (healthcare_analysis.sql)
 
