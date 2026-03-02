@@ -1,7 +1,7 @@
 # Data Analysis for Healthcare using Power BI
 
 ## Overview
-This repository contains Power BI files, presentations, reports, and datasets for a comprehensive analysis of the `MetroHealth83` dataset, aimed at assessing healthcare safety risks across 77 U.S. cities. The project leverages Power BI to clean data, explore patterns, engineer features, and provide actionable insights, with some tasks adapted to Tableau for cross-validation. The dataset includes 17 columns such as `RateMDs`, `RateBeds`, `PctChangeMedicare`, and engineered features (`newHAI`, `newPDI`, `newMedicareDependencyRatio`).
+This repository contains Power BI file, MySQL query, Python ETL Pipeline, Cleaned Dataset `cleaned_healthcare_data`, presentations, reports, and datasets for a comprehensive analysis of the `MetroHealth83` dataset, aimed at assessing healthcare safety risks across 77 U.S. cities. The project leverages Power BI to clean data, explore patterns, engineer features, and provide actionable insights, with some tasks adapted to Tableau for cross-validation. The dataset includes 17 columns such as `RateMDs`, `RateBeds`, `PctChangeMedicare`, and engineered features (`newHAI`, `newPDI`, `newMedicareDependencyRatio`).
 
 ## Project Structure
 - `cleaneddataset.pbix`: Power BI file with cleaned data tables.
